@@ -1,6 +1,6 @@
 {
   "name": "@microck/revisor-win32-arm64",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Windows arm64 binary for revisor.",
   "os": [
     "win32"
