@@ -1,0 +1,42 @@
+{
+  "name": "@microck/revisor",
+  "version": "0.1.3",
+  "description": "portable codex-powered github pr review, debugging, and issue-fixing cli.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microck/revisor.git"
+  },
+  "homepage": "https://github.com/Microck/revisor#readme",
+  "bugs": {
+    "url": "https://github.com/Microck/revisor/issues"
+  },
+  "bin": {
+    "revisor": "bin/revisor.js"
+  },
+  "files": [
+    "bin/revisor.js",
+    "cmd",
+    "internal",
+    "scripts",
+    "go.mod",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "go build -o bin/revisor-go ./cmd/revisor",
+    "build:prebuilts": "node ./scripts/build-prebuilts.js",
+    "test": "go test ./...",
+    "postinstall": "node ./scripts/postinstall.js"
+  },
+  "optionalDependencies": {
+    "@microck/revisor-darwin-arm64": "0.1.3",
+    "@microck/revisor-darwin-x64": "0.1.3",
+    "@microck/revisor-linux-arm64": "0.1.3",
+    "@microck/revisor-linux-x64": "0.1.3",
+    "@microck/revisor-win32-arm64": "0.1.3",
+    "@microck/revisor-win32-x64": "0.1.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

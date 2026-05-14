@@ -1,0 +1,8 @@
+node_modules/
+*.patch
+bin/revisor-go
+bin/revisor-go.exe
+bin/revisor
+bin/revisor.exe
+npm/revisor-*/bin/
+*.tgz
