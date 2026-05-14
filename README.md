@@ -1,12 +1,4 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/revisor-logo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset=".github/assets/revisor-logo-light.svg">
-    <img src=".github/assets/revisor-logo-light.svg" alt="revisor" width="720">
-  </picture>
-</p>
-
-<p align="center">
   <a href="https://github.com/Microck/revisor/releases"><img src="https://img.shields.io/github/v/release/Microck/revisor?display_name=tag&style=flat-square&label=release&color=000000" alt="release badge"></a>
   <a href="https://www.npmjs.com/package/@microck/revisor"><img src="https://img.shields.io/npm/dt/@microck/revisor?style=flat-square&label=downloads&color=000000" alt="npm downloads"></a>
   <a href="https://github.com/Microck/revisor/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Microck/revisor/ci.yml?branch=main&style=flat-square&label=ci&color=000000" alt="ci badge"></a>

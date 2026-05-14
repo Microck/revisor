@@ -1,6 +1,6 @@
 {
   "name": "@microck/revisor-darwin-x64",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Darwin x64 binary for revisor.",
   "os": [
     "darwin"
