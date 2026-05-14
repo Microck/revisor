@@ -201,6 +201,10 @@ example json shape:
 
 progress, clone output, and codex diagnostics go to stderr/stdout as produced by the underlying tools. the json summary is intended as the stable completion artifact.
 
+## agent skill
+
+this repo includes a source skill at [`skills/revisor/SKILL.md`](skills/revisor/SKILL.md) for agents that should route github pr reviews, issue diagnosis, and issue fixes through `revisor`.
+
 ## safety model
 
 - `review` and `debug` are read-only codex runs
