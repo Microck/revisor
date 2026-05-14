@@ -1,3 +1,9 @@
+<h1 align="center">revisor</h1>
+
+<p align="center">
+  codex review · debug · fix for github
+</p>
+
 <p align="center">
   <a href="https://github.com/Microck/revisor/releases"><img src="https://img.shields.io/github/v/release/Microck/revisor?display_name=tag&style=flat-square&label=release&color=000000" alt="release badge"></a>
   <a href="https://www.npmjs.com/package/@microck/revisor"><img src="https://img.shields.io/npm/dt/@microck/revisor?style=flat-square&label=downloads&color=000000" alt="npm downloads"></a>
